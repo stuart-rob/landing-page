@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+   }
+
+#pato-logo {
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    display: flex;
+}
+
+#trees,
+#rocks,
+#stuart,
+#headshot {
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    display: flex;
+    flex: 1 1 200;
+    border-color: rgb(72, 72, 202);
+    border-style: solid;
+    border-width: 2px;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    
+}
+
+.header-links {
+    display: flex;
+    justify-content: flex-end;
+    word-spacing: 40px;
+    padding-right: 200px;
+    
+}
+
+.header,
+.header-links {
+    padding-bottom: 20px;
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 300px;
+    justify-content: flex-start;
+    flex-shrink: 0;
+}
+
+.button {
+    display: flex;
+    background-color: #f158bb; 
+    border: none;
+    color: white;
+    padding: 15px;
+    width: fit-content;
+    border-radius: 10%;
+    
+  }
+
+  .header,
+  .headerlinks,
+  .section1 {
+    background-color: rgba(149, 216, 216, 0.751);
+  }
+
+  .section2 {
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .section2-images {
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  
+  figcaption {
+        padding-top: 10px;
+        text-align: center;
+        max-width: 200px;
+        overflow-wrap: break-word;
+    }
+
+    .section3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+        font-size: 30px;
+        font-style: italic;
+        color: rgb(72, 72, 72);
+        
+    }
+
+    .quote-by {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 200px;
+    }
+
+    .section3,
+    .quote-by {
+        background-color: rgba(235, 226, 226, 0.865);
+    }
+
+    .section4 {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 200px;
+        padding-right: 200px;
+        margin: 60px;
+        background-color: rgb(32, 98, 204);
+        border-radius: 10px;
+        color: white;
+        
+    }
+
+    .button4 {
+        display: flex;
+        align-items: center;
+        border-color: white;
+        background-color: rgb(32, 98, 204);
+        padding: 5px 15px 5px 15px;
+        width: fit-content;
+        border-radius: 10%;
+        color: white;
+        
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: blueviolet;
+        color: white;
+        padding: 10px;
+        justify-content: center;
+    }
+
+   
